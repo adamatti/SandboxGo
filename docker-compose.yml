@@ -1,0 +1,21 @@
+version: "3.1"
+services:
+  mongo:
+    image: "mongo:4.0.4"
+    ports:
+      - "27017:27017"
+    network_mode: "host"
+  redis:
+    image: "redis:5.0.1"
+    ports:
+      - "6379:6379"
+    network_mode: "host"
+  postgres:
+    image: "postgres:11.1"
+    ports:
+      - "5432:5432"
+    network_mode: "host"
+    environment:
+      POSTGRES_PASSWORD: "sample"
+      POSTGRES_USER: "sample"
+      POSTGRES_DB: "sample"

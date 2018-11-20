@@ -1,0 +1,4 @@
+package: .
+import:
+- package: github.com/go-redis/redis
+  version: ^6.14.2

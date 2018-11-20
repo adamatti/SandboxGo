@@ -5,11 +5,13 @@ services:
     ports:
       - "27017:27017"
     network_mode: "host"
+
   redis:
     image: "redis:5.0.1"
     ports:
       - "6379:6379"
     network_mode: "host"
+
   postgres:
     image: "postgres:11.1"
     ports:
@@ -19,3 +21,23 @@ services:
       POSTGRES_PASSWORD: "sample"
       POSTGRES_USER: "sample"
       POSTGRES_DB: "sample"
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    ports:
+      - "2181:2181"
+    network_mode: "host"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    ports:
+      - "9092:9092"
+    network_mode: "host"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: localhost:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1

@@ -1,0 +1,81 @@
+Pet project to play with https://golang.org[GoLang]
+
+#### Tools
+
+| Version manager    | https://github.com/moovweb/gvm[gvm] |
+| Dependency Manager | https://github.com/Masterminds/glide[glide] / https://github.com/golang/dep[dep] |
+
+#### Commands
+
+|Run                    | `go run fileName.go`|
+|Download dependencies  | `glide update`
+
+#### Things covered
+
+* Basic
+** https://stackoverflow.com/questions/16895651/how-to-implement-level-based-logging-in-golang[Logs]
+** https://golang.org/pkg/net/[Socket]
+** https://tutorialedge.net/golang/reading-writing-files-in-go/[File]
+** https://tutorialedge.net/golang/parsing-json-with-golang/[Json]
+** https://medium.com/@thejasbabu/testing-in-golang-c378b351002d[Test]
+** Env Var - `os.Getenv`
+* Database
+** https://labix.org/mgo[Mongo]
+** https://github.com/go-pg/pg[PostgreSql]
+** https://github.com/go-redis/redis[Redis]
+* Web
+** https://www.codementor.io/codehakase/building-a-restful-api-with-golang-a6yivzqdo[Rest]
+** Static files [
+https://www.alexedwards.net/blog/serving-static-sites-with-go[basic] |
+https://github.com/gobuffalo/packr[packr]
+]
+* Message broker [
+https://github.com/confluentinc/confluent-kafka-go[kafka]
+]
+* Microservices
+** Circuit breaker [
+https://github.com/afex/hystrix-go[hystrix]
+]
+
+#### Future research
+
+* https://medium.com/@pierreprinetti/the-go-1-11-dockerfile-a3218319d191[Docker and Go]
+* https://github.com/docker/go-healthcheck[Health Check]
+* https://medium.com/seek-blog/microservices-in-go-2fc1570f6800[Microservices in Go]
+* https://golang.org/doc/editors.html[IDE]: currently using https://marketplace.visualstudio.com/items?itemName=lukehoban.Go[Visual Studio Code]
+* https://gistpages.com/posts/go-lang-get-type-of-a-variable[Reflection]
+
+#### Go Links
+
+* Learn [
+http://gobyexample.com[Go by example] |
+http://godoc.org[Go doc] |
+https://golang.org/doc/effective_go.html[Effective Go] |
+https://go-tour-br.appspot.com[Go tour]
+]
+* Community [
+http://invite.slack.golangbridge.org[slack] | 
+http://groups.google.com/d/forum/golang-nuts[google groups] |
+http://forum.golangbridge.org[forum golang] |
+https://www.reddit.com/r/golang[reddit]
+]
+* News [
+http://golangnews.com[golang news] |
+http://golangweekly.com[golang weekly] |
+http://blog.golang.org[golang blog]
+]
+* Books [
+https://www.packtpub.com/mapt/book/application_development/9781786468666[Building Microservices with go]
+]
+* Fun [
+https://gopherize.me[gopherize.me] | 
+https://assets.toggl.com/images/toggl-how-to-save-the-princess-in-8-programming-languages.jpg[How to save the princess]
+]
+
+#### Related Links (not only about go)
+
+* Benchmarks [
+https://www.techempower.com/benchmarks[techempower] |
+https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html[benchmarksgame-team]
+]
+* https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md[Microsoft API guidelines]

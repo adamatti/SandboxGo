@@ -48,6 +48,7 @@ https://github.com/afex/hystrix-go[hystrix]
 * https://medium.com/seek-blog/microservices-in-go-2fc1570f6800[Microservices in Go]
 * https://golang.org/doc/editors.html[IDE]: currently using https://marketplace.visualstudio.com/items?itemName=lukehoban.Go[Visual Studio Code]
 * https://gistpages.com/posts/go-lang-get-type-of-a-variable[Reflection]
+* https://medium.com/dm03514-tech-blog/sre-performance-analysis-tuning-methodology-using-a-simple-http-webserver-in-go-d475460f27ca[Performance Analysis]
 
 #### Go Links
 
@@ -83,3 +84,8 @@ https://www.techempower.com/benchmarks[techempower] |
 https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html[benchmarksgame-team]
 ]
 * https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md[Microsoft API guidelines]
+
+#### Apps to take a look
+
+* https://github.com/tsenart/vegeta[Vegeta] - HTTP load testing tool and library
+* https://github.com/Azure/golua[GoLua] - A Lua 5.3 engine implemented in Go

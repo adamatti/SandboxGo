@@ -3,17 +3,15 @@ Pet project to play with https://golang.org[GoLang]
 #### Tools
 
 |===
-| Title              | Links                               |
-| Version manager    | https://github.com/moovweb/gvm[gvm] |
-| Dependency Manager | https://github.com/Masterminds/glide[glide] / https://github.com/golang/dep[dep] |
+| Version manager    | https://github.com/moovweb/gvm[gvm] 
+| Dependency Manager | https://github.com/Masterminds/glide[glide] / https://github.com/golang/dep[dep] 
 |===
 
 #### Commands
 
-|===
-| Title                 | Commands            |
-|Run                    | `go run fileName.go`|
-|Download dependencies  | `glide update`      |
+|===         
+|Run                    | `go run fileName.go`
+|Download dependencies  | `glide update`      
 |===
 
 #### Things covered

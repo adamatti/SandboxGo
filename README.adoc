@@ -53,6 +53,12 @@ https://github.com/go-resty/resty[resty]
 * https://golang.org/doc/editors.html[IDE]: currently using https://marketplace.visualstudio.com/items?itemName=lukehoban.Go[Visual Studio Code]
 * https://gistpages.com/posts/go-lang-get-type-of-a-variable[Reflection]
 * https://medium.com/dm03514-tech-blog/sre-performance-analysis-tuning-methodology-using-a-simple-http-webserver-in-go-d475460f27ca[Performance Analysis]
+* SQL [
+https://github.com/Masterminds/squirrel[squirrel] |
+https://github.com/huandu/go-sqlbuilder[sqlbuilder]
+]
+* https://medium.com/@geisonfgfg/functional-go-bc116f4c96a4[Functional Programming in Go]
+* https://github.com/chebyrash/promise[Promises for Go]
 
 #### Go Links
 

@@ -66,7 +66,8 @@ https://github.com/huandu/go-sqlbuilder[sqlbuilder]
 http://gobyexample.com[Go by example] |
 http://godoc.org[Go doc] |
 https://golang.org/doc/effective_go.html[Effective Go] |
-https://go-tour-br.appspot.com[Go tour]
+https://go-tour-br.appspot.com[Go tour] |
+https://github.com/golang/go/wiki/FromXToGo[From X to Go]
 ]
 * Community [
 http://invite.slack.golangbridge.org[slack] | 
@@ -99,3 +100,6 @@ https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html[bench
 
 * https://github.com/tsenart/vegeta[Vegeta] - HTTP load testing tool and library
 * https://github.com/Azure/golua[GoLua] - A Lua 5.3 engine implemented in Go
+* https://humpheh.github.io/goboy[goboy] - Multi-platform Nintendo Game Boy Color emulator written in Go
+* https://medium.com/@owlwalks/build-a-dns-server-in-golang-fec346c42889[Build a DNS server in Golang]
+* https://github.com/Vertamedia/chproxy[Clickhouse proxy]

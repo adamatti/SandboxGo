@@ -105,3 +105,4 @@ https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/go.html[bench
 * https://github.com/Vertamedia/chproxy[Clickhouse proxy]
 * https://github.com/kubernetes/kubernetes[Kubernetes]
 * https://github.com/istio/istio[Istio]
+* https://github.com/goharbor/harbor[Harbor] - registry project that stores, signs, and scans content.

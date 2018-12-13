@@ -59,6 +59,7 @@ https://github.com/huandu/go-sqlbuilder[sqlbuilder]
 ]
 * https://medium.com/@geisonfgfg/functional-go-bc116f4c96a4[Functional Programming in Go]
 * https://github.com/chebyrash/promise[Promises for Go]
+* https://scot.coffee/2018/12/monitoring-go-applications-with-prometheus[Monitoring with prometheus]
 
 #### Go Links
 

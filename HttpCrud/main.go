@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/mux"
+	mux "github.com/gorilla/mux"
 )
 
 type Person struct {
@@ -57,7 +57,6 @@ func deletePerson(w http.ResponseWriter, r *http.Request) {
 	for index, item := range people {
 		if item.ID == params["id"] {
 			people = append(people[:index], people[index+1:]...)
-			//log.Println("Shall remove index", index)
 			break
 		}
 	}

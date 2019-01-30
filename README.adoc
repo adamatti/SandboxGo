@@ -68,7 +68,8 @@ http://gobyexample.com[Go by example] |
 http://godoc.org[Go doc] |
 https://golang.org/doc/effective_go.html[Effective Go] |
 https://go-tour-br.appspot.com[Go tour] |
-https://github.com/golang/go/wiki/FromXToGo[From X to Go]
+https://github.com/golang/go/wiki/FromXToGo[From X to Go] |
+https://awesome-go.com[awesome list]
 ]
 * Community [
 http://invite.slack.golangbridge.org[slack] | 
